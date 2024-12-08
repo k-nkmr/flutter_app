@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_app debug",
+            "cwd": "packages/flutter_app",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+        },
+    ]
+}
