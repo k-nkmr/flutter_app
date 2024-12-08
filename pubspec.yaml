@@ -1,0 +1,7 @@
+name: flutter_app
+
+environment:
+  sdk: ^3.5.4
+
+dev_dependencies:
+  melos: ^6.2.0

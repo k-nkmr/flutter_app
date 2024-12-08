@@ -1,0 +1,29 @@
+{
+    "cSpell.words": [
+        "altive",
+        "riverpod"
+    ],
+    "[dart]": {
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+    "editor.codeActionsOnSave": {
+      "quickfix.insertSemicolon": "always",
+      "source.organizeImports": "always",
+      "source.addMissingImports": "always",
+      "source.fixAll": "always"
+    }
+  },
+  "cSpell.ignorePaths": [
+    "*.gen.dart",
+    "*.lock",
+    "*.xcconfig",
+    "**/.pub-cache",
+    ".git/objects",
+    ".metadata",
+    ".vscode",
+    ".vscode-insiders"
+  ],
+}
