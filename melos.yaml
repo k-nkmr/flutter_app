@@ -2,3 +2,14 @@ name: flutter_app
 repository: https://github.com/k-nkmr/flutter_app
 packages:
   - packages/*
+
+
+scripts:
+  gen:
+    run: dart run build_runner build --delete-conflicting-outputs
+    exec:
+      concurrency: 1
+    description: Run generate code.
+    packageFilters:
+      dirExists: lib
+      dependsOn: "build_runner"

@@ -26,4 +26,8 @@
     ".vscode",
     ".vscode-insiders"
   ],
+  "editor.rulers": [
+    80
+  ],
+  "editor.renderWhitespace": "all",
 }
