@@ -3,7 +3,8 @@ linter:
   rules:
     public_member_api_docs: false
 analyzer:
+  errors:
+    specify_nonobvious_local_variable_types: ignore
   plugins:
     - custom_lint
-  exclude:
-    "**/gen/*.dart"
+  exclude: "**/gen/*.dart"
